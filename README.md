@@ -1,8 +1,6 @@
 # Leetcode-Problem-238---Product-of-array-except-self
 Solution for leetcode problem 238 
 
-Got it — no diagrams.
-
 ## Approach
 
 Use **prefix and suffix products** without division.
@@ -40,6 +38,3 @@ Two passes are made through the array.
 ## Space Complexity
 
 **O(1) extra space**
-
-Only `prefix` and `suffix` variables are used. The output array is not counted as extra space according to the question.
-
